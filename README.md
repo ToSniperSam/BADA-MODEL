@@ -1,7 +1,7 @@
 # BADA
 An areoplane demo made for 614.
 <br/>
-This content is part of his enterprise, involving computer science and mathematics closely related to my course.
+This content is part of 614 enterprise.
 <br/>
 Mainly use python, pyqt5, matplotlib, unity, pandas<br/>
 <div align=center><img width="375" height="325" src="https://github.com/ToSniperSam/BADA-MODEL/blob/main/python/pic.png"/></div>
