@@ -1,6 +1,4 @@
 # BADA
-An areoplane demo made for 614.
-<br/>
 This content is part of 614 enterprise.
 <br/>
 Mainly use python, pyqt5, matplotlib, unity, pandas<br/>
