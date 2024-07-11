@@ -1,2 +1,2 @@
-# BADA-MODEL
+# BADA
 An areoplane demo made for 614.
