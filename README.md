@@ -7,7 +7,7 @@ Mainly use python, pyqt5, matplotlib, unity, pandas<br/>
 ## Others
 It's a pivotal chapter of my undergraduate life, when some guy will head south to pursue his career, with ideals and freedom in his grasp.
 <br/>
-"I'll never forget the support academiclly he provided me over these four years, perhaps..."
+"I'll never forget the support academiclly Yang provided me over these four years, perhaps..."
 <br/>
 Oooops, it remains as a memory.
 
