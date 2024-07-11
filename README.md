@@ -4,14 +4,6 @@ This content is part of 614 enterprise.
 Mainly use python, pyqt5, matplotlib, unity, pandas<br/>
 <div align=center><img width="375" height="325" src="https://github.com/ToSniperSam/BADA-MODEL/blob/main/python/pic.png"/></div>
 
-
-## Others
-It's a pivotal chapter of my undergraduate life. Some guy will head north to pursue his career, with ideals and freedom in his grasp.
-<br/>
-"I'll never forget the support academiclly he provided me over these four years, perhaps..."
-<br/>
-Oooops, it remains as a memory.
-
 ## Python Description
 Use Python to implement the calculation of BADA parameters, then use Matplotlib to plot the results, and finally use PyQt5 to create the interface with a UI system.<br/>
 ```python
@@ -104,5 +96,7 @@ m_to_nam = 44.4822
 
 ## Others
 It's a pivotal chapter of my undergraduate life. Some guy will head north to pursue his career, with ideals and freedom in his grasp.
+<br/>
 "I'll never forget the support academiclly he provided me over these four years, perhaps..."
+<br/>
 Oooops, it remains as a memory.
