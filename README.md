@@ -95,7 +95,7 @@ m_to_nam = 44.4822
 <div align=center><img width="720" height="440" src="https://github.com/ToSniperSam/BADA-MODEL/blob/main/python/006Awb8Ely1hpobyg7ocpj30wg0jbq7l.jpg"/></div>
 
 ## Others
-It's a pivotal chapter of my undergraduate life. Some guy will head north to pursue his career, with ideals and freedom in his grasp.
+It's a pivotal chapter of my undergraduate life, When some guy will head north to pursue his career, with ideals and freedom in his grasp.
 <br/>
 "I'll never forget the support academiclly he provided me over these four years, perhaps..."
 <br/>
