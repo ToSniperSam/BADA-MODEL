@@ -3,8 +3,11 @@ An areoplane demo made for 614.
 <br/>
 This content is part of his enterprise, involving computer science and mathematics closely related to my course.
 <br/>
+Mainly use python, pyqt5, matplotlib, unity, pandas<br/>
 <div align=center><img width="375" height="325" src="https://github.com/ToSniperSam/BADA-MODEL/blob/main/python/pic.png"/></div>
-## Python description
+
+## Python Description
+Use Python to implement the calculation of BADA parameters, then use Matplotlib to plot the results, and finally use PyQt5 to create the interface with a UI system.<br/>
 ```python
 # M 质量
 # lo 质量常量 low
@@ -55,21 +58,39 @@ knots_to_mps = 1.852 * (1000 / 3600)
 
 # 英尺转化为m
 m_to_nam = 44.4822
-
-# 导入常量
-lo = 107880
-no = 150000
-hi = 181400
-Vcr_1 = 310
-Vcr_2 = 310
-Rho_ = 1.225
-height_convert = 0.3048
-a_ = 340.292
-K = 1.4
-Sw = 283.3
-Cf1 = 0.763
-Cf2 = 1430
-Cfc = 1.0347
-CD_0 = 0.014
-CD_2 = 0.049
 ```
+
+## Crucial Code
+```python
+    # 找出最大的燃油里程
+    max_distance = max(current_x)
+    # 获取最大燃油里程对应的索引，以便找出最佳的飞行高度
+    index_current = current_x.index(max_distance)
+
+    # 打印计算结果
+    print('质量为 ' + W_namelist[W_index] + ' 的组别中：最大燃油里程为：{}'.format(
+        max_distance) + ' nam/lb' + ' 对应的最佳飞行高度为：{}'.format(current_y[index_current]) + ' ft')
+    res_list_x.append(current_x)
+    res_list_y.append(current_y)
+
+    # 组别类型索引+1
+    W_index += 1
+
+    # 绘图代码
+    plt.figure(figsize=(10, 6))
+    # 选择与质量M对应的Mah值
+    for i in range(len(W_namelist)):
+        plt.plot(res_list_x[i], res_list_y[i], label=W_namelist[i])
+
+        # 图例的X坐标和Y坐标，可补充单位
+        plt.xlabel('nam/lb')
+        plt.ylabel('H (ft)')
+        plt.title('Curve Plot of Distance vs Height for Different Weight')
+    plt.grid(True)
+
+    # 添加图例
+    plt.legend()
+    plt.show()
+```
+
+## Showcase
